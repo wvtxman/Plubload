@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  
-  <title>UPLOAD LARGE FILES</title>
+  <title>Highrise Electrical Technologies Inc.</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="site.ico">
  
@@ -154,3 +154,4 @@ if (document.selection) {
  
 </body>
 </html>
+
