@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
  
-  <title>Highrise Electrical Technologies Inc.</title>
+  <title>UPLOAD LARGE FILES</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="site.ico">
  
@@ -52,7 +52,7 @@
 <br />
  <div class="row">
     	<div class="page-container row-12">
-    		<h4 class="col-12 text-center mb-5"><strong>HIGHRISE ELECTRIC FILE UPLOADS</strong> </h4>
+    		<h4 class="col-12 text-center mb-5"><strong>FILE UPLOADS</strong> </h4>
     		<div class="row-8 form-container  w3-grey">
             <button id="browse" href="javascript:;" >Browse</button>
             <button id="start-upload" href="javascript:;" >Upload</button>
@@ -85,7 +85,7 @@ uploader.bind('FilesAdded', function(up, files) {
 	str = str.replace(/[^a-zA-Z0-9]/g, '');
 	var lastThree = str.substr(str.length - 3); // => "Tabs1"
     
-  document.getElementById('para').innerHTML = 'http://www.highriseelectric.com/uploads/' + firstPart + "." + lastThree;
+  document.getElementById('para').innerHTML = 'http://www.yourwebsite/' + firstPart + "." + lastThree;
   document.getElementsByName("btnValidateWork")[0].style.visibility = "visible";
    
   });
